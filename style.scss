@@ -1,0 +1,119 @@
+body {
+		       font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+		       margin-left: 0px;
+	           margin-top: 0px;
+	           margin-right: 0px;
+	           margin-bottom: 0px;
+}
+             .container01, .container03, .container05 {
+                 width: 50%;
+                 float: left;
+                 display: table;
+                 height: 320px;
+                 margin: 0 auto;
+}
+            .container02, .container04, .container06 {
+                 width: 50%;
+                 float: right;
+                 display: table;
+                 height: 320px;
+                 margin: 0 auto;
+}
+             .content01, .content04, .content05 {
+                 background-color: rgb(153, 51, 51);
+                 color: white;
+                 padding: 40px;
+                 text-align: center;
+                 display: table-cell;
+                 vertical-align: middle;
+}
+            .content02, .content03, .content06 {
+                 background-color: white;
+                 color: rgb(105, 105, 105);
+                 font-size: 11pt;
+                 padding: 27pt;
+                 text-align: center;
+                 display: table-cell;
+                 vertical-align: middle;
+}
+            .hieroglyphs {
+              background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9b/Karnak_Tempel_06_d1.jpg");
+}
+            .container07 {
+                 background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/53/Pyramids_of_Egypt1.jpg");
+                 background-repeat: no-repeat;
+                 background-attachment: fixed;
+                 background-position: center;
+                 background-color: rgb(103, 184, 250);
+                 width: 100%;
+                 height: 320px;
+                 float: left;
+                 text-align: center;
+                 display: table-cell;
+                 vertical-align: middle;
+}
+            .container-footer {
+                 background-color: rgb(180, 180, 180);
+                 width: 100%;
+                 height: 60px;
+                 float: left;
+                 display: table-cell;
+                 vertical-align: middle;
+}
+            .content-footer {
+               font-size: 10pt;
+               text-align: center;
+               line-height: 11pt;
+}
+            .egypt-headline {
+                font-size: 24pt;
+                font-weight:bold;
+                line-height: 14pt;
+            }
+            .special-headline {
+                font-family: "Times New Roman", Times, serif;
+                font-size: 16pt;
+                font-weight:bold;
+                color: rgb(242, 216, 65);
+            }
+            .headline01 {
+                font-size: 24pt;
+                font-weight:bold;
+                color: rgb(153, 51, 51);
+                line-height: 14pt;
+            }
+            .highlights {
+                font-family: "Times New Roman", Times, serif;
+                font-size:13pt;
+                color: rgb(153, 51, 51);
+            }
+            .pyramid {
+                width: 40%;
+                border-radius: 50%;
+            }
+            .image-quote {
+                font-size: 9pt;
+                font-style: italic;
+			}
+             .myButton {
+	         background-color: rgb(227, 195, 16);
+	         border-radius:20px;
+	         display:inline-block;
+	         cursor:pointer;
+	         font-family:Arial;
+	         font-size:15px;
+	         padding:10px 20px;
+	         text-decoration:none;
+}
+             a:link {
+             color: white;
+}
+             a:visited {
+             color: white;
+}
+             a:hover {
+             color: black;
+}
+             a:active {
+             color: white;
+}
